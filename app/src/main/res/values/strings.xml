@@ -3,4 +3,8 @@
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
     <string name="login_text">Login</string>
+    <string name="user_error">Check username and try again</string>
+    <string name="password_error">Password must have at least one capital letter, a special character and an alphanumeric character.</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_continue">Continue</string>
 </resources>

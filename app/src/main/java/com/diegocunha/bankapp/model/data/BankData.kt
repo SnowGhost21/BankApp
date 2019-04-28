@@ -12,7 +12,7 @@ data class ResponseLogin(
 )
 
 data class Error(@SerializedName("code") val code: Int,
-                 @SerializedName("message") val message: String
+                 @SerializedName("message") val message: String?
 )
 
 data class Account(@SerializedName("userId") val userId: Int,

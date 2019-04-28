@@ -11,7 +11,7 @@ class BankRetrofitRepository(private val api: BankAPI,
                              private val storageRepository: BankStorageRepository) : BankRepository {
 
     override fun login(postLogin: RequestLogin): Single<ResponseLogin> {
-        return api.login(postLogin.user, postLogin.password)
+        return api.login(postLogin)
     }
 
     override fun getListOfStatements(): Single<List<StatementResponse>> {
